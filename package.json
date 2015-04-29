@@ -11,7 +11,7 @@
     "react": "^0.13.2",
     "react-style": "^0.5.5",
     "smart-css": "^1.0.3",
-    "tottys-project": "^0.2.2",
+    "tottys-project": "^0.3.1",
     "webpack": "^1.7.3"
   },
   "scripts": {
@@ -24,6 +24,7 @@
     "cucumberry": "0.0.3",
     "gulp": "^3.8.11",
     "hide-stack-frames-from": "^1.0.0",
-    "mocha": "^2.2.4"
+    "mocha": "^2.2.4",
+    "react-style-webpack-plugin": "^0.4.0"
   }
 }

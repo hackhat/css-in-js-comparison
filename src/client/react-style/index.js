@@ -1,10 +1,13 @@
 var React = require('react');
 var Root  = React.createFactory(require('./ui/Root'));
-// var Absurd = require("absurd"); doesn't work.. I don't know why, maybe has some issues with webpack.
-// Added `module.exports = client();` to the library source, it's faster than adding to webpack config.
-// Easiest way to load is with `var Absurd = require('../absurd');`;
-// Note: would be nice to add the `absurd.compile` only here but it creates a new context each time.
-
+// Seems like it only works with react-style-webpack-plugin
+// Uses a lot of react internals which might not be available in future
+// (react/lib/Object.assign, react/lib/CSSProperty...).
+//
+// To make the simple example to work I had to cd into the root of the module and run again
+// npm install. You also have to npm install in the simple folder in example to run it.
+// I don't know why it didn't got the first time. Here is the command to run the simple
+// example `"../../../node_modules/.bin/webpack" --hide-modules --watch` (cd into the folder first)
 
 
 module.exports = function(options){
