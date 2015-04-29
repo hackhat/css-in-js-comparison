@@ -1,0 +1,96 @@
+PowerCmd 2
+Copyright(C) 2006-2011 by POWERCMD
+All Rights Reserved Worldwide.
+This program is protected by International Copyright Laws and International Treaty Provisions.
+
+http://www.powercmd.com
+
+1. END USER LICENSE AGREEMENT
+
+Please Read This End User License Agreement ("EULA") Carefully.
+
+This End User License Agreement ("EULA") is a legal agreement between you (either an individual or a single entity) and POWERCMD for the software product, which includes computer software and may include associated media, printed materials, and "online" or electronic documentation ("SOFTWARE PRODUCT").  By installing, copying, or otherwise using the SOFTWARE PRODUCT, you agree to be bound by the terms of this EULA.  If you disagree with any of the terms of this EULA or if you are unwilling or unable to fully accept these conditions, then, notwithstanding the conditions in the remainder of this EULA, do not install or use the SOFTWARE PRODUCT.
+
+This SOFTWARE PRODUCT is provided to you by POWERCMD for use only under the terms provided in this EULA.  POWERCMD reserves all rights not expressly granted to you. While you may own the media on which the SOFTWARE PRODUCT is recorded, POWERCMD retains ownership of the SOFTWARE PRODUCT itself. You assume sole responsibility for the installation, use and results you obtain from your use of the SOFTWARE PRODUCT.
+
+2. LICENSE PROVISIONS
+
+A. Evaluation Period
+
+This SOFTWARE PRODUCT may be evaluated on a "try-before-you-buy" basis.  If you have not purchased a license, this EULA permits you to run the SOFTWARE PRODUCT 30 days for evaluation purposes. Your ability to use the SOFTWARE PRODUCT after the end of the 30-day evaluation period will be limited.
+
+In general, after you purchase a license you may install and use the SOFTWARE PRODUCT on up to two computers at a time by registering the SOFTWARE PRODUCT using your User Name and License Key, you will receive technical support, the evaluation messages on the about dialog will be removed, and you will be able to download future updates.
+
+B. Purchased License
+
+Your purchased license grants you a limited, non-exclusive license to do the following:
+
+a)  You may install and use this SOFTWARE PRODUCT on up to three computers at a time. For example, you may install and use the SOFTWARE PRODUCT on a desktop computer while a family member is using it on a notebook computer.
+
+b)  After you purchase this SOFTWARE PRODUCT you will receive a unique License Key which allows you to unlock the Evaluation version and create a registered version which gives you full use of the SOFTWARE PRODUCT.  You shall not publish or distribute your License Key by any means.  If you do, your purchased license to use the SOFTWARE PRODUCT is automatically revoked and terminated, you must remove the SOFTWARE PRODUCT from your computer(s), and you may be liable for legal damages.
+
+c)  You may make copies of the unmodified Installation Executable (ex. Install_PowerCmd.exe) for distribution to another party solely for their evaluation purposes.  Although the SOFTWARE PRODUCT may not be sold, a fee of no greater than $5 (U.S. Dollars) may be charged for the service of providing the Installation Executable of this SOFTWARE PRODUCT to others on physical media (i.e. charging for the media and duplication services only).
+
+d)  You may transfer the SOFTWARE PRODUCT and all rights under this EULA to another party with a copy of this EULA and all written materials accompanying the SOFTWARE PRODUCT provided (i) you give POWERCMD notice of the transfer (including in such notice the identity of the transferee), and (ii) the other party reads and agrees to accept the terms and conditions of this EULA.
+
+e)  You may only use the SOFTWARE PRODUCT in a manner that complies with all applicable laws in the jurisdiction(s) in which you use the SOFTWARE PRODUCT, including, but not limited to, applicable restrictions concerning copyright and other intellectual property rights.
+
+3. COPYRIGHT
+
+This SOFTWARE PRODUCT is Copyright (c) 2006-2009 by POWERCMD.  All Rights Reserved Worldwide. The SOFTWARE PRODUCT is protected by copyright laws and international treaty provisions.
+
+You may not distribute the registered version of this SOFTWARE PRODUCT.  You may not distribute the License Key code provided to you.  Distribution of your License Key will be prosecuted to the maximum extent possible under the law.
+
+4. PROTECTION OF THE INSTALLATION EXECUTABLE
+
+Under no circumstance does POWERCMD grant any party permission to wrap this SOFTWARE PRODUCT or its installation executable within another executable or installation executable, install it in conjunction with another installation executable, and/or modify, remove or add files to the installation executable as compiled and released by POWERCMD.
+
+5. OWNERSHIP
+
+A.  This SOFTWARE PRODUCT and the related copyrights and intellectual property rights, are the exclusive property of POWERCMD and/or its suppliers.  You acquire no title, right or interest in the Software other than the rights granted in this EULA.
+
+B.  You shall not remove from the SOFTWARE PRODUCT any trademark, service mark, tradename, copyright notice or other notice.
+
+6. RESTRICTIONS
+
+You may not sublicense, or assign copies of the SOFTWARE PRODUCT to others.  This SOFTWARE PRODUCT contains trade secrets.  You may not decompile, reverse engineer, disassemble, or otherwise reduce the SOFTWARE PRODUCT to a human readable form.  You may not modify, adapt, translate, rent, lease, loan, resell, or otherwise assign the SOFTWARE PRODUCT (except as provided in 2.B.d).
+
+7. TERMINATION
+
+A.  This EULA is effective until terminated and it will terminate immediately without notice from POWERCMD if you fail to comply with any of its provisions.
+
+B.  Upon termination of this EULA, POWERCMD reserves the right to take any legal action necessary to recover any damages incurred by POWERCMD.
+
+C.  Upon termination of this EULA, you shall immediately refrain from using the SOFTWARE PRODUCT, you shall delete the SOFTWARE PRODUCT from the computer(s) upon which it has been installed by you and/or your agents, and you shall delete the SOFTWARE PRODUCT from the media upon which it is recorded.
+
+D.  The limitations on liability and disclaimer of warranty contained in this EULA shall continue in force even after your rights to use the SOFTWARE PRODUCT are terminated.
+
+8. LIMITATION OF LIABILITY
+
+UNDER NO CIRCUMSTANCES AND UNDER NO LEGAL THEORY WHETHER IN TORT CONTRACT OR OTHERWISE SHALL POWERCMD, ITS AGENTS, SUPPLIERS OR RESELLERS BE LIABLE TO YOU OR ANY OTHER PERSON FOR ANY INDIRECT, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES OF ANY CHARACTER INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF GOODWILL, WORK STOPPAGE, COMPUTER FAILURE OR MALFUNCTION OR ANY AND ALL OTHER COMMERCIAL DAMAGES OR LOSSES EVEN IF POWERCMD SHALL HAVE BEEN INFORMED OF THE POSSIBILITY OF SUCH DAMAGES OR FOR ANY CLAIM BY ANY OTHER PARTY.  POWERCMD SHALL NOT BE LIABLE FOR ANY LOSS, DAMAGES, OR COSTS ARISING OUT OF BUT NOT LIMITED TO:  LOST PROFITS OR REVENUE; LOSS OF USE OF THE SOFTWARE; LOSS OF DATA OR EQUIPMENT; COST OF RECOVERING SOFTWARE, DATA, OR MATERIALS IN THE SOFTWARE; CLAIMS BY THIRD PARTIES; OR OTHER SIMILAR COSTS.  FURTHER, IN NO EVENT SHALL POWERCMD LIABILITY UNDER ANY PROVISION OF THIS AGREEMENT EXCEED THE LICENSE FEE PAID TO POWERCMD FOR THE SOFTWARE PRODUCT AND DOCUMENTATION.  BECAUSE SOME STATES/JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE ABOVE LIMITATION MAY NOT APPLY TO YOU.
+
+9. DISCLAIMER OF WARRANTY
+
+A.  THIS SOFTWARE PRODUCT IS PROVIDED "AS-IS."  POWERCMD MAKES NO WARRANTIES, EITHER EXPRESS OR IMPLIED, WITH RESPECT TO THIS SOFTWARE PRODUCT, INCLUDING BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, ITS QUALITY, PERFORMANCE, OR MERCHANTABILITY.  IN PARTICULAR, IT IS NOT GUARANTEED TO PREVENT OR DETECT DAMAGE TO YOUR DATA OR PROGRAMS NOR ARE THE ACCURACY AND/OR APPLICABILITY OF THE CALCULATED RESULTS GENERATED BY THIS SOFTWARE PRODUCT GUARANTEED.  THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE SOFTWARE IS WITH YOU.  SHOULD THE SOFTWARE PRODUCT PROVE DEFECTIVE, YOU (AND NOT POWERCMD OR ITS AGENTS, SUPPLIERS, DISTRIBUTORS OR DEALERS) ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, REPAIRS OR CORRECTION.
+
+B.  Some states do not allow the exclusion of implied warranties, so the above exclusion may not apply to you. If any provision of this EULA is held by a court of competent jurisdiction to be invalid or unenforceable to any extent under applicable law, that provision will be enforced to the maximum extent permissible, and the remaining provisions of this EULA shall remain in full force and effect.  This warranty gives you specific legal rights, and you may also have other rights which vary from state to state.
+
+C.  POWERCMD does not warrant that the functions contained in the SOFTWARE PRODUCT will meet your requirements or that the operation of the SOFTWARE PRODUCT will be uninterrupted or error free.
+
+D.  The limitations and disclaimers set forth in this EULA will apply regardless of whether you accept the SOFTWARE PRODUCT.
+
+10. ENHANCEMENTS
+
+POWERCMD may, in its sole discretion, advise you of updates, upgrades, enhancements or improvements to the SOFTWARE PRODUCT and/or new releases of the SOFTWARE PRODUCT (collectively, "ENHANCEMENTS"), and may license you to use such ENHANCEMENTS upon payment of prices as may be established by POWERCMD from time to time.  All such ENHANCEMENTS to the SOFTWARE PRODUCT provided to you shall also be governed by the terms of this EULA.  POWERCMD reserves the sole and exclusive right to set and modify its policies and prices regarding updates, upgrades and enhancements.
+
+11. GENERAL
+
+Any notices or other communications to be sent to POWERCMD must be e-mailed certified to the following address: support@powercmd.com.
+
+This EULA constitutes the entire agreement between POWERCMD and you with respect to the subject matter hereof, and all prior proposals, agreements, representations, statements and undertakings are hereby expressly cancelled and superseded.  This EULA replaces all previous EULAs for previous versions of this SOFTWARE PRODUCT.  This EULA may not be changed or amended except by a written instrument executed by a duly authorized officer of POWERCMD.
+
+12. ACKNOWLEDGEMENT
+
+BY INSTALLING THIS SOFTWARE PRODUCT, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS END USER LICENSE AGREEMENT, YOU UNDERSTAND IT, AND YOU AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.  Should you have any questions concerning this EULA, contact POWERCMD at the email address provided above.
+
+Document Date: 1/15/2009
