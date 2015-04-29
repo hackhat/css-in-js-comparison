@@ -3,6 +3,7 @@ var page         = require('page');
 var MainPage     = React.createFactory(require('./MainPage'));
 var SmartCSSRoot = require('./smart-css/index');
 var RCSSRoot     = require('./RCSS/index');
+var AbsurdRoot   = require('./absurd/index');
 
 
 
@@ -20,9 +21,9 @@ page('/examples/smart-css', function(ctx){
 
 
 
-page('/examples/rcss', function(ctx){
-    var _RCSSRoot = RCSSRoot({ctx: ctx, page: page});
-    React.render(_RCSSRoot, document.getElementById('root'));
+page('/examples/absurd', function(ctx){
+    var absurdRoot = AbsurdRoot({ctx: ctx, page: page});
+    React.render(absurdRoot, document.getElementById('root'));
 })
 
 

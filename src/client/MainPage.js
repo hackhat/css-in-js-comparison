@@ -19,7 +19,9 @@ var MainPage = React.createClass({
             React.DOM.ul({},
                 React.DOM.a({href:"/examples/smart-css"}, 'smart-css'),
                 React.DOM.br(),
-                React.DOM.a({href:"/examples/rcss"}, 'RCSS')
+                React.DOM.a({href:"/examples/rcss"}, 'RCSS'),
+                React.DOM.br(),
+                React.DOM.a({href:"/examples/absurd"}, 'absurd')
             )
         )
     }
