@@ -17,7 +17,9 @@ var MainPage = React.createClass({
             React.DOM.h1({}, 'CSS in JS library comparison'),
             React.DOM.p({}, 'Click on one of the following link to go see an example of a library:'),
             React.DOM.ul({},
-                React.DOM.a({href:"/examples/smart-css"}, 'smart-css')
+                React.DOM.a({href:"/examples/smart-css"}, 'smart-css'),
+                React.DOM.br(),
+                React.DOM.a({href:"/examples/rcss"}, 'RCSS')
             )
         )
     }
