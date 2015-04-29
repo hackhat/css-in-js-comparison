@@ -1,0 +1,44 @@
+.item-pseudo-class {
+  padding: 20px;
+}
+.item-pseudo-class:hover {
+  background: red;
+}
+.item-pseudo-class:hover label {
+  color: white;
+}
+.item-pseudo-class .label {
+  border: 1px solid grey;
+}
+.item-pseudo-element {
+  padding: 20px;
+}
+.item-pseudo-element:hover {
+  background: rgba(0, 0, 0, 0.18);
+}
+.item-pseudo-element:hover .label {
+  color: white;
+}
+.item-pseudo-element:hover .label::after {
+  content: ' ::after on parent hover';
+}
+.item-pseudo-element .label {
+  border: 1px solid grey;
+}
+.item-pseudo-element .label::after {
+  content: ' ::after by default';
+}
+.item-media {
+  background: yellow;
+  padding: 20px;
+}
+@media (min-width: 600px) {
+  .item-media {
+    background: red;
+  }
+}
+@media (max-width: 600px) {
+  .item-media {
+    background: orange;
+  }
+}

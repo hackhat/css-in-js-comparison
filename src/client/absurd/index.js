@@ -1,6 +1,5 @@
 var React = require('react');
 var Root  = React.createFactory(require('./ui/Root'));
-var RCSS  = require('rcss');
 // var Absurd = require("absurd"); doesn't work.. I don't know why, maybe has some issues with webpack.
 // Added `module.exports = client();` to the library source, it's faster than adding to webpack config.
 // Easiest way to load is with `var Absurd = require('../absurd');`;
@@ -9,6 +8,5 @@ var RCSS  = require('rcss');
 
 
 module.exports = function(options){
-    RCSS.injectAll();
     return Root(options);
 }

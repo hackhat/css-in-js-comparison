@@ -12,11 +12,11 @@ For each lib there is a little example and the generated css formatted using thi
 
  - **[smart-css](https://github.com/hackhat/smart-css):** [source code](./src/client/smart-css), [generated.css](./src/client/smart-css/generated.css);
  - **[RCSS](https://github.com/chenglou/RCSS):** [source code](./src/client/RCSS), [generated.css](./src/client/RCSS/generated.css);
+ - **[absurd](https://github.com/krasimir/absurd):** [source code](./src/client/absurd), [generated.css](./src/client/absurd/generated.css);
 
 
 **Todo:**
 
- - [absurd](https://github.com/krasimir/absurd);
  - [react-style](https://github.com/js-next/react-style);
  - [radium](https://github.com/FormidableLabs/radium);
  - [jsxstyle](https://github.com/petehunt/jsxstyle);
