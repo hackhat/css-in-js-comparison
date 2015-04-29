@@ -1,19 +1,29 @@
-# css-in-js-comparison [Add travis-ci badge here] [Add coveralls badge here]
+# css-in-js-comparison
 
-Fill this readme.
+This project will help you to analyze various libraries that allows you to write CSS in JS.
 
 
+## Libraries
 
-### API
+**Analyzed:**
 
-The API is [here](https://rawgit.com/hackhat/css-in-js-comparison/v1.0.0/docs/jsduck/index.html).
+ - [smart-css](https://github.com/hackhat/smart-css);
+
+
+**Todo:**
+
+ - [RCSS](https://github.com/chenglou/RCSS);
+ - [absurd](https://github.com/krasimir/absurd);
+ - [react-style](https://github.com/js-next/react-style);
+ - [radium](https://github.com/FormidableLabs/radium);
+ - [jsxstyle](https://github.com/petehunt/jsxstyle);
+ - [react-in-style](https://github.com/ericwooley/react-in-style);
 
 
 
 ## Install
 
  - Make sure you already have node.js installed;
- - Install mocha and istanbul globally `npm install mocha istanbul -g`;
  - Clone the project in a folder (let's say "css-in-js-comparison");
  - Open a command line and cd into the folder;
  - Run the command `npm install`;
@@ -22,7 +32,4 @@ The API is [here](https://rawgit.com/hackhat/css-in-js-comparison/v1.0.0/docs/js
 
 ## Run it
 
- - Run tests: `mocha`;
- - Run tests with code coverage: `npm test`;
- - Run only client side with reload: `gulp`;
- - Run server side with reload: `gulp server`;
+ - Run only client side with reload: `gulp` and go to [localhost:8080](http://localhost:8080);
