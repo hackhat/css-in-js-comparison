@@ -8,6 +8,7 @@
     "lodash": "^3.5.0",
     "page": "^1.6.3",
     "react": "^0.13.2",
+    "smart-css": "^1.0.3",
     "tottys-project": "^0.2.2",
     "webpack": "^1.7.3"
   },
