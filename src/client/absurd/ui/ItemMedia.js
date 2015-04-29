@@ -1,7 +1,9 @@
 var React  = require('react');
-// Added `module.exports = client();` to the library source, it's faster than adding to webpack config.
 var Absurd = require('../absurd');
 var absurd = Absurd();
+var utils  = require('../utils');
+
+
 
 
 
@@ -17,9 +19,9 @@ absurd.add({
         }
     }
 });
-debugger
-absurd.compile(function(err, css) {
-    // use the compiled css
+absurd.compile(function(err, css){
+    err && console.error(err);
+    utils.injectCSS(css);
 });
 
 

@@ -1,25 +1,32 @@
 var React = require('react');
-var RCSS  = require('rcss');
+var Absurd = require('../absurd');
+var absurd = Absurd();
+var utils  = require('../utils');
 
 
 
 
 
-var root = RCSS.registerClass({
-    padding : '20px',
-    ':hover': {
-        background: 'red'
+// Distance between the .parent:hover .label and .parent .label
+// Sometimes can be too big and hard to understand.
+absurd.add({
+    '.item-pseudo-class': {
+        padding : '20px',
+        ':hover': {
+            background: 'red',
+            label: {
+                color: 'white'
+            }
+        },
+        '.label': {
+            border: '1px solid grey'
+        }
     }
-})
-
-
-
-var label = RCSS.registerClass({
-    border: '1px solid grey'
-})
-var labelParentHover = RCSS.registerClass({
-    color: 'white'
-})
+});
+absurd.compile(function(err, css){
+    err && console.error(err);
+    utils.injectCSS(css);
+});
 
 
 
@@ -33,41 +40,12 @@ var Root = React.createClass({
 
 
 
-    getInitialState: function(){
-        return {
-            parentHover: false,
-        }
-    },
-
-
-
-    __onMouseOver: function(){
-        this.setState({
-            parentHover: true
-        });
-    },
-
-
-
-    __onMouseOut: function(){
-        this.setState({
-            parentHover: false
-        });
-    },
-
-
-
     render: function() {
         return React.DOM.li({
-            className   : root.className,
-            onMouseOver : this.__onMouseOver,
-            onMouseOut  : this.__onMouseOut,
+            className : 'item-pseudo-class'
         },
             React.DOM.p({
-                className: [
-                    label.className,
-                    (this.state.parentHover ? labelParentHover.className : '')
-                ].join(' ')
+                className: 'label'
             }, this.props.label)
         )
     }
