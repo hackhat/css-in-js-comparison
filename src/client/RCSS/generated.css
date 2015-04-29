@@ -1,0 +1,41 @@
+.cd031735f6fbc93099dfe434d34affb933c6581aa {
+    padding: 20px;
+}
+.cd031735f6fbc93099dfe434d34affb933c6581aa:hover {
+    background: red;
+}
+.cccab2275d7e6cadbfb724fefa5acde86ddb44b4e {
+    border: 1px solid grey;
+}
+.c8e52c7f94cdf5b3a3854259f5cb9263d695e5dfc {
+    color: white;
+}
+.c1dfc7a616b9a3c22174a9d334f289bd6cf30a94b {
+    padding: 20px;
+}
+.c1dfc7a616b9a3c22174a9d334f289bd6cf30a94b:hover {
+    background: rgba(0, 0, 0, 0.18);
+}
+.c8761aefbb92b1751b02a26bada5ad4a1f05906d2 {
+    border: 1px solid grey;
+}
+.c8761aefbb92b1751b02a26bada5ad4a1f05906d2::after {
+    content: " ::after by default";
+}
+.c8452d8955ac48408f7b031b10a7e3684f7c55ace::after {
+    content: " ::after on parent hover";
+}
+.c0bfcc24b7f9f68f646dc74fa5cd3f4ea77e9e1e7 {
+    background: yellow;
+    padding: 20px;
+}
+@media (min-width: 600px) {
+    .c0bfcc24b7f9f68f646dc74fa5cd3f4ea77e9e1e7 {
+        background: red;
+    }
+}
+@media (max-width: 600px) {
+    .c0bfcc24b7f9f68f646dc74fa5cd3f4ea77e9e1e7 {
+        background: orange;
+    }
+}
