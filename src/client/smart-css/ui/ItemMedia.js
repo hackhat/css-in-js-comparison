@@ -41,7 +41,6 @@ var Root = React.createClass({
             className: css.getClass('root')
         },
             React.DOM.p({
-                className: css.getClass('label')
             }, this.props.label)
         )
     }
