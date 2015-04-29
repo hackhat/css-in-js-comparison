@@ -21,7 +21,9 @@ var MainPage = React.createClass({
                 React.DOM.br(),
                 React.DOM.a({href:"/examples/rcss"}, 'RCSS'),
                 React.DOM.br(),
-                React.DOM.a({href:"/examples/absurd"}, 'absurd')
+                React.DOM.a({href:"/examples/absurd"}, 'absurd'),
+                React.DOM.br(),
+                React.DOM.a({href:"/examples/react-style"}, 'react-style')
             )
         )
     }

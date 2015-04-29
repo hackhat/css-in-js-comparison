@@ -9,6 +9,7 @@
     "page": "^1.6.3",
     "rcss": "^0.1.5",
     "react": "^0.13.2",
+    "react-style": "^0.5.5",
     "smart-css": "^1.0.3",
     "tottys-project": "^0.2.2",
     "webpack": "^1.7.3"
