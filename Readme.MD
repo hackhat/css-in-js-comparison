@@ -2,12 +2,15 @@
 
 This project will help you to analyze various libraries that allows you to write CSS in JS.
 
+For each lib there is a little example and the generated css formatted using this [tool](http://www.lonniebest.com/formatcss/).
+
+
 
 ## Libraries
 
 **Analyzed:**
 
- - [smart-css](https://github.com/hackhat/smart-css);
+ - [smart-css](https://github.com/hackhat/smart-css): [generated.css](./src/client/smart-css/generated.css);
 
 
 **Todo:**
