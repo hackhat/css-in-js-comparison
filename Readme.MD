@@ -25,6 +25,12 @@ Doesn't work because of some issue with the routing (Check out [here the app](ht
  - [react-in-style](https://github.com/ericwooley/react-in-style);
 
 
+**Future:**
+
+ - http://www.smashingmagazine.com/2013/10/21/challenging-css-best-practices-atomic-approach/
+ - http://krasimir.github.io/organic-css/
+
+
 
 ## Install
 
