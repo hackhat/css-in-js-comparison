@@ -5,6 +5,8 @@ This project will help you to analyze various libraries that allows you to write
 For each lib there is a little example and the generated css formatted using this [tool](http://www.lonniebest.com/formatcss/).
 
 
+Check out [here the app](https://cdn.rawgit.com/hackhat/css-in-js-comparison/dev/dist/index.html).
+
 
 ## Libraries
 
