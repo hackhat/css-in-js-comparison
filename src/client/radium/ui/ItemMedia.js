@@ -32,7 +32,6 @@ var Root = React.createClass(Radium.wrap({
 
     render: function() {
         return React.DOM.li({
-            className: 'item-media',
             style: [
                 styles['item-media']
             ]

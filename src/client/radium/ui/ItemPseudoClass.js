@@ -1,16 +1,12 @@
-var React = require('react');
-// var Absurd = require('../absurd');
-var absurd = Absurd();
-// var utils  = require('../utils');
+var Radium = require('radium');
+var React  = require('react');
 
 
 
 
 
-// Distance between the .parent:hover .label and .parent .label
-// Sometimes can be too big and hard to understand.
-absurd.add({
-    '.item-pseudo-class': {
+var styles = {
+    'item-pseudo-class': {
         padding : '20px',
         ':hover': {
             background: 'red',
@@ -18,21 +14,17 @@ absurd.add({
                 color: 'white'
             }
         },
-        '.label': {
+        'label': {
             border: '1px solid grey'
         }
     }
-});
-absurd.compile(function(err, css){
-    err && console.error(err);
-    utils.injectCSS(css);
-});
+};
 
 
 
 
 
-var Root = React.createClass({
+var Root = React.createClass(Radium.wrap({
 
 
 
@@ -42,17 +34,21 @@ var Root = React.createClass({
 
     render: function() {
         return React.DOM.li({
-            className : 'item-pseudo-class'
+            style: [
+                styles['item-pseudo-class']
+            ]
         },
             React.DOM.p({
-                className: 'label'
+                style: [
+                    styles['item-pseudo-class']['label']
+                ]
             }, this.props.label)
         )
     }
 
 
 
-});
+}));
 
 
 
