@@ -23,7 +23,9 @@ var MainPage = React.createClass({
                 React.DOM.br(),
                 React.DOM.a({href:"/examples/absurd"}, 'absurd'),
                 React.DOM.br(),
-                React.DOM.a({href:"/examples/react-style"}, 'react-style (Stuck, can\'t do with the webpack plugin)')
+                React.DOM.a({href:"/examples/react-style"}, 'react-style (Stuck, can\'t do with the webpack plugin)'),
+                React.DOM.br(),
+                React.DOM.a({href:"/examples/radium"}, 'radium')
             )
         )
     }

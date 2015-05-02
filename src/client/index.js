@@ -4,7 +4,8 @@ var MainPage       = React.createFactory(require('./MainPage'));
 var SmartCSSRoot   = require('./smart-css/index');
 var RCSSRoot       = require('./RCSS/index');
 var AbsurdRoot     = require('./absurd/index');
-var ReactStyleRoot = require('./react-style/index');
+// var ReactStyleRoot = require('./react-style/index');
+var RadiumRoot     = require('./radium/index');
 
 
 
@@ -40,6 +41,13 @@ page('/examples/absurd', function(ctx){
 page('/examples/react-style', function(ctx){
     var reactStyleRoot = ReactStyleRoot({ctx: ctx, page: page});
     React.render(reactStyleRoot, document.getElementById('root'));
+})
+
+
+
+page('/examples/radium', function(ctx){
+    var radiumRoot = RadiumRoot({ctx: ctx, page: page});
+    React.render(radiumRoot, document.getElementById('root'));
 })
 
 
