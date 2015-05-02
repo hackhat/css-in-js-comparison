@@ -25,7 +25,9 @@ var MainPage = React.createClass({
                 React.DOM.br(),
                 React.DOM.a({href:"/examples/react-style"}, 'react-style (Stuck, can\'t do with the webpack plugin)'),
                 React.DOM.br(),
-                React.DOM.a({href:"/examples/radium"}, 'radium')
+                React.DOM.a({href:"/examples/radium"}, 'radium'),
+                React.DOM.br(),
+                React.DOM.a({href:"/examples/jsxstyle"}, 'jsxstyle')
             )
         )
     }

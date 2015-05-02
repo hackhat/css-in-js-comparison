@@ -32,6 +32,15 @@ Doesn't work because of some issue with the routing (Check out [here the app](ht
 
 
 
+## Temp
+
+Against inline CSS:
+
+ - Also if you want to edit some of these properties in the web inspector, it won't edit all instances of the component;
+ - Performance?
+
+
+
 ## Install
 
  - Make sure you already have node.js installed;
