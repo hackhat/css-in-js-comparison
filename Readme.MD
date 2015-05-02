@@ -16,11 +16,11 @@ Doesn't work because of some issue with the routing (Check out [here the app](ht
  - **[RCSS](https://github.com/chenglou/RCSS):** [source code](./src/client/RCSS), [generated.css](./src/client/RCSS/generated.css);
  - **[absurd](https://github.com/krasimir/absurd):** [source code](./src/client/absurd), [generated.css](./src/client/absurd/generated.css);
  - **[react-style](https://github.com/krasimir/react-style) (works, but it doesn't use react-style lib because I couldn't setup):** [source code](./src/client/react-style);
+ - **[radium](https://github.com/FormidableLabs/radium):** [source code](./src/client/radium), No CSS output because is all inline;
 
 
 **Todo:**
 
- - [radium](https://github.com/FormidableLabs/radium);
  - [jsxstyle](https://github.com/petehunt/jsxstyle);
  - [react-in-style](https://github.com/ericwooley/react-in-style);
 
