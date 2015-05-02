@@ -69,6 +69,7 @@ var Root = React.createClass(Radium.wrap({
             },
                 [
                     this.props.label,
+                    // Simulated pseudo element. It might should be wrapped in a <span> tag.
                     (this.state.parentHover ? ' ::after on parent hover' : ' ::after by default')
                 ].join('')
             )
