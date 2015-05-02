@@ -11,7 +11,7 @@
     "react": "^0.13.2",
     "react-style": "^0.5.5",
     "smart-css": "^1.0.3",
-    "tottys-project": "^0.3.1",
+    "tottys-project": "^0.3.2",
     "webpack": "^1.7.3"
   },
   "scripts": {
