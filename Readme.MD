@@ -5,7 +5,7 @@ This project will help you to analyze various libraries that allows you to write
 For each lib there is a little example and the generated css formatted using this [tool](http://www.lonniebest.com/formatcss/).
 
 
-Check out [here the app](https://cdn.rawgit.com/hackhat/css-in-js-comparison/dev/dist/index.html).
+Doesn't work because of some issue with the routing (Check out [here the app](https://rawgit.com/hackhat/css-in-js-comparison/dev/dist/index.html)), you really have to clone and run it with gulp to test it.
 
 
 ## Libraries
