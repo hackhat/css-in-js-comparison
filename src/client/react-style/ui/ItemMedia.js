@@ -15,7 +15,7 @@ var styles = StyleSheet.create({
             background: 'red'
         }
     },
-    '@media (max-width: 600px)': {
+    '@media (max-width: 400px)': {
         'item-media': {
            background: 'orange'
         }

@@ -12,7 +12,7 @@ var styles = {
         '@media (min-width: 600px)': {
             background: 'red'
         },
-        '@media (max-width: 600px)': {
+        '@media (max-width: 400px)': {
             background: 'orange'
         }
     }
