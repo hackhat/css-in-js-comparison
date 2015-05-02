@@ -14,7 +14,7 @@ absurd.add({
         padding : '20px',
         ':hover': {
             background: 'red',
-            label: {
+            '.label': {
                 color: 'white'
             }
         },
