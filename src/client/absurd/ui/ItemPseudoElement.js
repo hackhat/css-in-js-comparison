@@ -15,7 +15,6 @@ absurd.add({
         ':hover': {
             background: 'rgba(0, 0, 0, 0.18)',
             '.label': {
-                color: 'white',
                 '::after': {
                     content: "' ::after on parent hover'"
                 }

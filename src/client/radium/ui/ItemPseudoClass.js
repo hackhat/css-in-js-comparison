@@ -6,17 +6,17 @@ var React  = require('react');
 
 
 var styles = {
-    'item-pseudo-class': {
+    itemPseudoClass: {
         padding : '20px',
         ':hover': {
             background: 'red',
-            label: {
-                color: 'white'
-            }
         },
-        'label': {
-            border: '1px solid grey'
-        }
+    },
+    label: {
+        border: '1px solid grey'
+    },
+    labelParentHover: {
+        color: 'white'
     }
 };
 
@@ -32,15 +32,42 @@ var Root = React.createClass(Radium.wrap({
 
 
 
+    getInitialState: function(){
+        return {
+            parentHover: false,
+        }
+    },
+
+
+
+    __onMouseOver: function(){
+        this.setState({
+            parentHover: true
+        });
+    },
+
+
+
+    __onMouseOut: function(){
+        this.setState({
+            parentHover: false
+        });
+    },
+
+
+
     render: function() {
         return React.DOM.li({
+            onMouseOver : this.__onMouseOver,
+            onMouseOut  : this.__onMouseOut,
             style: [
-                styles['item-pseudo-class']
+                styles.itemPseudoClass
             ]
         },
             React.DOM.p({
                 style: [
-                    styles['item-pseudo-class']['label']
+                    styles.label,
+                    (this.state.parentHover ? styles.labelParentHover : '')
                 ]
             }, this.props.label)
         )
